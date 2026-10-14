@@ -1,0 +1,294 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>S. Susanna Miriam | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #17152e;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #a78bfa;
+        }
+
+        header h2 {
+            color: #a78bfa;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #67e8f9;
+        }
+
+        .home {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .home h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .home h1 span {
+            color: #a78bfa;
+        }
+
+        .home h3 {
+            color: #67e8f9;
+            margin-bottom: 15px;
+        }
+
+        .home p {
+            max-width: 650px;
+            color: #cbd5e1;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #a78bfa;
+            color: #0b1020;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #67e8f9;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #a78bfa;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #17152e;
+            padding: 25px;
+            margin: 15px auto;
+            border-radius: 12px;
+            max-width: 800px;
+            border: 1px solid #343052;
+        }
+
+        .card h3 {
+            color: #67e8f9;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #242044;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: 1px solid #a78bfa;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 12px 0;
+            overflow-wrap: anywhere;
+        }
+
+        .contact a {
+            color: #67e8f9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #17152e;
+            color: #cbd5e1;
+        }
+
+        @media (max-width: 600px) {
+            .home h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            section {
+                padding: 45px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>S. Susanna Miriam</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <h3>WELCOME TO MY PORTFOLIO</h3>
+
+        <h1>Hi, I'm <span>S. Susanna Miriam</span></h1>
+
+        <h3>Aspiring Software Developer</h3>
+
+        <p>
+            I am a Computer Science student at Bishop Heber College,
+            Trichy. I am passionate about technology, coding,
+            and problem-solving. My goal is to become a successful
+            software developer.
+        </p>
+
+        <a href="#contact" class="button">Contact Me</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                Hello! I am S. Susanna Miriam, studying B.Sc. Computer
+                Science at Bishop Heber College, Trichy (2026–2029).
+                I am interested in learning programming languages,
+                improving my technical knowledge, and developing
+                problem-solving abilities. My ambition is to become
+                a software developer and create useful applications.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Technical Coding Skills</div>
+            <div class="skill">Problem-Solving Abilities</div>
+            <div class="skill">Logical Thinking</div>
+            <div class="skill">Learning New Technologies</div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>B.Sc. Computer Science</h3>
+            <p>Bishop Heber College, Trichy</p>
+            <p>Academic Period: 2026–2029</p>
+        </div>
+
+        <div class="card">
+            <h3>12th Standard</h3>
+            <p>Marks Obtained: 476</p>
+        </div>
+
+        <div class="card">
+            <h3>10th Standard</h3>
+            <p>Marks Obtained: 436</p>
+        </div>
+
+        <div class="card">
+            <h3>Career Objective</h3>
+            <p>
+                To become a software developer, improve my programming
+                skills, and contribute to innovative software projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="card contact">
+            <p>
+                Gmail:
+                <a href="mailto:susannamiriam9@gmail.com">
+                    susannamiriam9@gmail.com
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/susanna-miriam-a828b0435"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My LinkedIn Profile
+                </a>
+            </p>
+
+            <br>
+
+            <a href="mailto:susannamiriam9@gmail.com" class="button">
+                Send Me an Email
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 S. Susanna Miriam | My Portfolio Website
+        </p>
+    </footer>
+
+</body>
+</html>
